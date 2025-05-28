@@ -20,13 +20,23 @@
     header {
       background: #0d6efd;
       color: #fff;
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 3rem 1rem;
       text-align: center;
+      position: relative;
     }
     header h1 {
       font-family: 'Merriweather', serif;
       font-size: 2rem;
+      margin-top: 1rem;
       margin-bottom: 0.5rem;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
     nav {
       margin-top: 1rem;
@@ -78,11 +88,16 @@
       header h1 {
         font-size: 2.5rem;
       }
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="https://github.com/AlhassaneToure/graph-ai-portfolio/blob/main/IMG_1524.jpeg?raw=true" alt="Profile photo of Dr. Alhassane Toure" class="profile-pic" />
     <h1>Dr. Alhassane Toure</h1>
     <p class="quote">"Our ability to anticipate and adapt to change determines our true success rate."</p>
     <nav>
@@ -170,3 +185,4 @@
   </footer>
 </body>
 </html>
+
